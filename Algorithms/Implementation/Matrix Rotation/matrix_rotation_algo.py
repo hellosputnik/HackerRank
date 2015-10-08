@@ -1,6 +1,10 @@
 def rotate(matrix, R):
-    # TO-DO:
-    pass
+    if R == 0:
+        result = ""
+        for row in matrix:
+            result += " ".join(row)
+
+        return result
 
 def main():
     M, N, R = map(int, raw_input().split())
