@@ -1,9 +1,9 @@
 import java.util.*;
 import java.util.regex.*;
 
-public class DuplicateWords
+public class Solution
 {
-    public static void main(String[] args)
+    public static void main(String [] args)
     {
 
         String pattern = "(?i)\\b([a-z]+)\\b(?:\\s+\\1\\b)+";

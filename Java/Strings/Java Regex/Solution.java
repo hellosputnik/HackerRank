@@ -1,8 +1,8 @@
-class myRegex
+class Solution
 {
     public String pattern;
 
-    public myRegex()
+    public Solution()
     {
         pattern = "/(\\d{1,3}\\.){3}\\d{1,3}/";
     }
