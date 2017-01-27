@@ -3,7 +3,7 @@ import itertools
 import operator
 
 
-# Reverse the substitution on the string using the dctionary as a map.
+# Reverse the substitution on the string using the dictionary as a map.
 def decrypt(string, dictionary):
 
     buf = list(string)
