@@ -1,6 +1,3 @@
-
-
-
 // This method reverses the original linked list using a stack; this algorithm
 // is an in-place algorithm.
 /*
