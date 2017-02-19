@@ -110,12 +110,7 @@ int main(int argc, char **argv) {
 
         // Calculate the max depth, h, read the table of nodes at K-depth, and
         // swap the children.
-        int h = std::log2(N) + 1;
-        // TODO: The author, abhiranjan, decided to be a dickhead with the
-        // height of the binary tree so it's not necessarily log2(N) + 1. Set
-        // it to the absolute max height possible.
-        h = N;
-        for (int k = K; k <= h; k += K)
+        for (int k = K; k <= N; k += K)
             for (auto node : tree.table[k])
                 node->swap();
 
